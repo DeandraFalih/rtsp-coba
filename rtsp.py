@@ -1,5 +1,5 @@
 import cv2
-cap = cv2.VideoCapture("rtsp://admin:zxcSaas2024@192.168.100.158:554/H.264")
+cap = cv2.VideoCapture("rtsp://192.168.100.146:8080/h264_pcm.sdp")
 
 while(cap.isOpened()):
     ret, frame = cap.read()
